@@ -99,6 +99,8 @@ public class CustomCharacterSO : ScriptableObject
         // {
         //     skinPaths.Add(AssetDatabase.GetAssetPath(skin));
         // }
+        var physicsBones = PhysBoneBaker.PhysBonesToJson(prefab.transform);
+
         
         return JObject.FromObject(new { 
             //characterPath,
@@ -116,7 +118,8 @@ public class CustomCharacterSO : ScriptableObject
             prefabPath,
             iconPath,
             statModifiers,
-            categoryRatios
+            categoryRatios,
+            physicsBones
         });
     }
 

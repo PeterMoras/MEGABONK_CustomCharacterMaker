@@ -41,6 +41,9 @@ public class CustomSoloSkinSO : ScriptableObject
             var matPath = AssetDatabase.GetAssetPath(mat);
             materialPaths.Add(AssetDatabase.GetAssetPath(mat));
         }
+        //get prefab phys bones
+        var physicsBones = PhysBoneBaker.PhysBonesToJson(prefab.transform);
+        
         
         return JObject.FromObject(new
         {
@@ -51,7 +54,8 @@ public class CustomSoloSkinSO : ScriptableObject
             eCharacter,
             iconPath,
             prefabPath,
-            materialPaths
+            materialPaths,
+            physicsBones
         });
     }
     public string[] getAssetNameList()
