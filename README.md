@@ -54,12 +54,14 @@ Here is a step by step guide on the required steps of creating a character.
     - Make sure to place your texture on the _MainTex field at the bottom of the material property list
     - The shader will not look correct in the Unity Editor, but should do so in-game.
   - Alternatively, you can use your own custom shader + Material (like the 'Standard' material), and it will show up in that rendering style in game.
-- Physics Bones.
-  - Add the MyPhysicsBone component to a bone, and it and all children will have simulation physics.
-    - Intended for single child chains, will cause issues with multiple children.
-  - Allows physics for character bone animations. Uses a custom sim with similar attributes to DynamicBone, but has different logic.
-    - You will need to test parameters yourself for best performance.
-    - Recommended to keep Stiffness at 1
+- Jiggle Bones.
+  - Add the JiggleRigBuilder component to your character, and it will add bones to the targeted Root Transform and all children.
+  - properties can be changed with the JiggleSettings, of which there are already a few presets (they have not been tested)
+  - Required fields: Root Transform, Jiggle Settings.
+  - Level of Detail does nothing
+  - The 'MyTestCharacter' uses a JiggleRig for scarf physics, that can be used as an example.
+  - Jiggle code courtesy of naelstrof via https://github.com/naelstrof/JigglePhysics
+    - I'm using an old and modified version from the BepinExCompatible branch with fewer features for compatability.
 
 
 

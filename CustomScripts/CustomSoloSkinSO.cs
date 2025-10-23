@@ -43,6 +43,7 @@ public class CustomSoloSkinSO : ScriptableObject
         }
         //get prefab phys bones
         var physicsBones = PhysBoneBaker.PhysBonesToJson(prefab.transform);
+        var jiggleBones = PhysBoneBaker.JiggleBonesToJson(prefab.transform);
         
         
         return JObject.FromObject(new
@@ -55,7 +56,8 @@ public class CustomSoloSkinSO : ScriptableObject
             iconPath,
             prefabPath,
             materialPaths,
-            physicsBones
+            physicsBones,
+            jiggleBones
         });
     }
     public string[] getAssetNameList()

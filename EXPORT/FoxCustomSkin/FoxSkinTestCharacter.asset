@@ -22,4 +22,6 @@ MonoBehaviour:
   materials:
   - {fileID: 2100000, guid: 5f0836352f43d204d933340801edb51f, type: 2}
   - {fileID: 2100000, guid: f3f8fcccf1c2edb4cb9809e39a2af879, type: 2}
+  - {fileID: 2100000, guid: f641be371bf3ebb4cbae8f63ee2fe332, type: 2}
   prefab: {fileID: 2355622090715804222, guid: dc8c07b0e699ce7448806314f2fdb338, type: 3}
+  skinType: 0

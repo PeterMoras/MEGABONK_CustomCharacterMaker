@@ -9,7 +9,7 @@ using Newtonsoft.Json.Linq;
 
 public class CreateAssetBundles
 {
-    public static readonly string VERSION = "1.3.0";
+    public static readonly string VERSION = "1.4.0";
     public static readonly string CUSTOM_CHARACTER_KEY = "character";
     public static readonly string CUSTOM_SOLO_SKIN_KEY = "soloSkin";
     public static readonly string CUSTOM_SOLO_WEAPON_KEY = "soloWeapon";

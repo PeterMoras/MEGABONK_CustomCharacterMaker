@@ -10,15 +10,15 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: f3b158626f112c04c8b9700f73cc3fcb, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.19964056
+      value: -6.7801847
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: f3b158626f112c04c8b9700f73cc3fcb, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.91
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: f3b158626f112c04c8b9700f73cc3fcb, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -4.89
+      value: 14.468312
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: f3b158626f112c04c8b9700f73cc3fcb, type: 3}
       propertyPath: m_LocalRotation.w
@@ -50,7 +50,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: f3b158626f112c04c8b9700f73cc3fcb, type: 3}
       propertyPath: m_Name
-      value: customCharacter
+      value: characterPrefab
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -59,6 +59,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: f3b158626f112c04c8b9700f73cc3fcb, type: 3}
       insertIndex: -1
       addedObject: {fileID: 2393522955362935033}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: f3b158626f112c04c8b9700f73cc3fcb, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 8908567176889181880}
   m_SourcePrefab: {fileID: 100100000, guid: f3b158626f112c04c8b9700f73cc3fcb, type: 3}
 --- !u!1 &2355622090715804222 stripped
 GameObject:
@@ -87,3 +90,27 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &8908567176889181880
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2355622090715804222}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1d76f24409a39604ca3986f91ce6d28a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rootTransform: {fileID: 5276684672806755481}
+  jiggleSettings: {fileID: 11400000, guid: accdc6a0c9087614e8a45413e3ffed6f, type: 2}
+  ignoredTransforms: []
+  colliders: []
+  wind: {x: 0, y: 0, z: 0}
+  levelOfDetail: {fileID: 0}
+  debugDraw: 0
+--- !u!4 &5276684672806755481 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -1924377488230345738, guid: f3b158626f112c04c8b9700f73cc3fcb, type: 3}
+  m_PrefabInstance: {fileID: 3202534454847377263}
+  m_PrefabAsset: {fileID: 0}

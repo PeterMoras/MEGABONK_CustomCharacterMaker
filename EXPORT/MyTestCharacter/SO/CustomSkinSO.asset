@@ -18,4 +18,4 @@ MonoBehaviour:
   materials:
   - {fileID: 2100000, guid: 5f0836352f43d204d933340801edb51f, type: 2}
   - {fileID: 2100000, guid: f3f8fcccf1c2edb4cb9809e39a2af879, type: 2}
-  skinType: 0
+  - {fileID: 2100000, guid: f641be371bf3ebb4cbae8f63ee2fe332, type: 2}

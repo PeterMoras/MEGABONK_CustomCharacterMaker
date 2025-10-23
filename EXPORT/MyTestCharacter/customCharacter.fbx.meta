@@ -14,6 +14,11 @@ ModelImporter:
       assembly: UnityEngine.CoreModule
       name: asdf1_Beta_HighLimbsGeoSG2
     second: {fileID: 2100000, guid: 5f0836352f43d204d933340801edb51f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: scarf
+    second: {fileID: 2100000, guid: f641be371bf3ebb4cbae8f63ee2fe332, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
