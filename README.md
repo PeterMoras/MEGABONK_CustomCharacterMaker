@@ -4,8 +4,8 @@ They are used in conjunction with my Megabonk Custom Character Loader plugin (ht
 
 
 ## Installation
-1. Ensure you have Unity 2023.2.20f1 downloaded, as this is Megabonk's Unity version, and is needed specifically to generate valid AssetBundles.
-2. Create a new Unity project with the 2023.2.20f1 version, make it obvious that this is for Megabonk mods.
+1. Ensure you have Unity [2023.2.22f1](https://unity.com/releases/editor/whats-new/2023.2.22f1) downloaded, as this is Megabonk's Unity version, and is needed specifically to generate valid AssetBundles.
+2. Create a new Unity project with the 2023.2.22f1 version, make it obvious that this is for Megabonk mods.
 	Use the 3D built-in render pipeline, though it doesn't matter what setup you start with.
 3. Extract or move all files into the Assets directory of the new Unity project.
 	After compiling finishes, clear the console and you should still see a few errors mentioning 'Newtonsoft'.
