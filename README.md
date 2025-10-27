@@ -8,8 +8,9 @@ They are used in conjunction with my Megabonk Custom Character Loader plugin (ht
 2. Create a new Unity project with the 2023.2.22f1 version, make it obvious that this is for Megabonk mods.
 	Use the 3D built-in render pipeline, though it doesn't matter what setup you start with.
 3. Extract or move all files into the Assets directory of the new Unity project.
+	For example, if you donwloaded this repo as a ZIP, move the "MEGABONK_CustomCharacterMaker-main" folder into the Assets directory of your unity project, so it looks like .../<MEGABONK_UNITY_PROJECT_NAME>/Assets/MEGABONK_CustomCharacterMaker-main
 	After compiling finishes, clear the console and you should still see a few errors mentioning 'Newtonsoft'.
-4. Install Newtonsoft.JSON by opening the Unity Package Manager (Window > Package Manager), click the + icon in the top left, and add package by name.
+5. Install Newtonsoft.JSON by opening the Unity Package Manager (Window > Package Manager), click the + icon in the top left, and add package by name.
 	the package name is: 'com.unity.nuget.newtonsoft-json', and version doesn't matter
 	
 If you have followed these instructions, you should now have a Unity project with no Errors. You can ignore the 999+ warnings.
